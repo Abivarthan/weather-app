@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="heads">         
+        <header class="navbar">
+            <h1 class="logo">🌤️ Weather App</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="about.html" class="about-btn">About Me</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="bx bx-menu"></i>
+            </div>
+        </header>
+        </div>
+            <div id="loading" >Loading...</div>
+            <div class="weather-container">
+                <div class="temp">
+                       <h3 id="degree" class="degree">30°C</h3>
+                </div>
+                <div class="state-time">
+                    <h3 id="place" class="place">Tamilnadu</h3>
+                    <p id="date-time" class="date-time">2025-01-01 04:44</p>
+                </div>
+                <div class="cloud">
+                    <div id="climate-image" class="climate-image"></div>
+                    <p id="climate" class="climate">Sunny</p>
+                    <p class="humidity">Humidity </p>
+                    <p class="wind-speed">Wind Speed </p>
+                </div>
+            </div>
+    </div>
+        <nav class="search-container">
+            <input type="text" placeholder="Enter Location..." class="search-place">
+            <i id="Icon" class='bx bx-search' onclick="search()"></i>
+            <button type="submit" class="search-btn" onclick="search()">Search</button>
+        </nav>
+
+</body>
+<script src="script.js"></script>
+</html>

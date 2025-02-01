@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  background-color: #0A0A23;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+  color: #00d4ff;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Contact Info */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+ul li i {
+  margin-right: 10px;
+  color: #00d4ff;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #00d4ff;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+/* Thank You Section */
+.thank-you {
+  margin-top: 40px;
+}
+
+/* Home Button */
+.home-btn {
+  font-size: 20px;
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+  background: aqua;
+  color: white;
+  box-shadow: 0px 0px 15px aqua;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+      width: 90%;
+      padding: 15px;
+  }
+}
