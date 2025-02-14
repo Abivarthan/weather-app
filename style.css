@@ -177,6 +177,7 @@ a:hover{
 .search-container {
     position: fixed;
     display: flex;
+    Flex-direction:column;
     top: 15%;
     color: #FFFFFF;     
     width: 90%;    
@@ -282,6 +283,7 @@ a:hover{
     }
     .search-place{
         height: 50px;
+        width:80%;
     }
     .search-btn {
         display: none;
@@ -347,6 +349,7 @@ a:hover{
 
     .search-place {
         font-size: 14px;
+        width:80%;
     }
 
     .search-btn {
