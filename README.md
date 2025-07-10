@@ -54,4 +54,4 @@ open index.html
 ```
 
 🙌 Author
-Made with ☁️ by Abivarthan Annadurai
+Made with ☁️ by Abivarthan
